@@ -3657,3 +3657,36 @@ a.tile:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(0,0,0,.07)}
   -webkit-text-stroke:0 !important;
   text-shadow:0 1px 2px rgba(0,0,0,.38) !important;
 }
+
+/* === MONG REGION REPRESENTATIVE IMAGE START === */
+.region-representative-image{
+  width:min(420px,calc(100% - 28px));
+  margin:22px auto 30px;
+}
+.region-representative-image img{
+  display:block;
+  width:100%;
+  height:auto;
+  aspect-ratio:1/1;
+  object-fit:cover;
+  border-radius:20px;
+  box-shadow:0 12px 32px rgba(35,13,51,.16);
+}
+@media(max-width:640px){
+  .region-representative-image{
+    width:calc(100% - 24px);
+    margin:16px auto 24px;
+  }
+  .region-representative-image img{
+    border-radius:16px;
+  }
+}
+/* === MONG REGION REPRESENTATIVE IMAGE END === */
+
+/* === REGION LIST ANCHOR START === */
+.region-list-anchor{
+  display:block;
+  height:1px;
+  scroll-margin-top:88px;
+}
+/* === REGION LIST ANCHOR END === */
